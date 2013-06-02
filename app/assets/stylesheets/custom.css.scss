@@ -46,7 +46,7 @@ h1 {
 	text-align: center;
 	background-size: 100%;
 	height: 400px;
-	p {
+	h3 {
 		padding-top: 100px;
 	}
 }
@@ -54,27 +54,44 @@ h1 {
 #howitworks {
 	background-color: #2C3E50;
 	height: 400px;
+	padding-top: 50px;
 	h1 {
-		padding-top: 100px;
+		margin-left: 40px;
+		margin-right: 40px;
 		text-align: center;
+		color: white;
+	}
+	h4 {
+		margin-left: 40px;
+		margin-right: 40px;
 		color: white;
 	}
 }
 
-#whoweare {
-	height: 200px;
-	h1 {
+#whofor {
+	height: 400px;
+	h4 {
+		margin-left: 40px;
+		margin-right: 40px;
 		padding-top: 100px;
-		text-align: center;
+	}
+}
+
+#beta {
+	background-color: #2C3E50;
+	height: 400px;
+	h3, h4 {
+		margin-left: 40px;
+		margin-right: 40px;
+		color: white;
 	}
 }
 
 /* footer */
 
 footer {
-	margin-top: 45px;
 	padding-top: 5px;
-	background-color: #2C3E50;
+	background-color: #c0392b;
 	height: 65px;
 	color: white;
 }
