@@ -1,13 +1,15 @@
 @import 'bootstrap';
 
 body {
+	height: 100%;
 	padding-top: 50px;
 	margin: 0;
-	background-color: #ECF0F1;
+	background-color: #3498db;
 }
 
-h1 {
+h1, h2, h3, h4 {
 	margin: 0;
+	font-family: 'Lato', sans-serif;
 }
 
 /* header */
@@ -17,12 +19,19 @@ h1 {
 	background-image: none;
 	border: none;
 	height: 50px;
+	small {
+		float: left;
+		padding-left: 3px;
+	}
 	li a {
 		color: #F1C40F;
 		padding-top: 15px;
 		&:hover {
 			color: #F39C12;
 		}
+	}
+	.container {
+		height: 50px;
 	}
 }
 
@@ -40,52 +49,94 @@ h1 {
   }
 }
 
+/* body */
+.container {
+	width: 100%;
+}
+
 /* intro */
 
 #intro {
 	text-align: center;
 	background-size: 100%;
+	background-image: url("intro2.jpg");
+	background-position: center;
 	height: 400px;
-	h3 {
-		padding-top: 100px;
+	h2 {
+		padding-top: 10%;
+		color: white;
 	}
 }
 
 #howitworks {
-	background-color: #2C3E50;
-	height: 400px;
-	padding-top: 50px;
-	h1 {
-		margin-left: 40px;
-		margin-right: 40px;
-		text-align: center;
+	background-color: #f39c12;
+	overflow: auto;
+	h2 {
 		color: white;
+		padding-bottom: 10px;
 	}
 	h4 {
 		margin-left: 40px;
 		margin-right: 40px;
 		color: white;
+	}
+}
+
+#step1 {
+	float: left;
+	img {
+		display: block;
+		margin: auto;
+	}
+	h3 {
+		text-align: center;
+	}
+}
+
+#step2 {
+	float: left;
+	img {
+		display: block;
+		margin: auto;
+	}
+	h3 {
+		text-align: center;
+	}
+}
+
+#step3 {
+	float: left;
+	img {
+		display: block;
+		margin: auto;
+	}
+	.shower {
+		max-height: 200px;
+	}
+	h3 {
+		text-align: center;
 	}
 }
 
 #whofor {
-	height: 400px;
+	overflow: auto;
 	h4 {
-		margin-left: 40px;
-		margin-right: 40px;
-		padding-top: 100px;
+		padding-top: 20px;
 	}
 }
 
 #beta {
-	background-color: #2C3E50;
-	height: 400px;
+	background-color: #f39c12;
+	overflow: auto;
 	h3, h4 {
-		margin-left: 40px;
-		margin-right: 40px;
 		color: white;
 	}
 }
+
+#contact {
+
+}
+
 
 /* footer */
 

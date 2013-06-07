@@ -2,14 +2,16 @@
 	<div class="navbar-inner">
 		<div class="container">
 			<%= link_to "Romantical", root_path, id: "logo" %>
+			<small>Beta</small>
 			<nav>
 				<ul class="nav pull-right">
-					<li><a href="#">How it Works</a></li>
-					<li><a href="#">Who it's for</a></li>
-					<li><a href="#">What is Beta?</a></li>
-					<li><a href="#">Get a Date</a></li>
+					<li><a href="#howitworks">How it Works</a></li>
+					<li><a href="#whofor">Who it's for</a></li>
+					<li><a href="#beta">What is Beta?</a></li>
+					<li><%= link_to "Get a Date", contact_path %></li>
 				<ul>
 			</nav>
 		</div>
 	</div>
 </header>
+<div class="container">
